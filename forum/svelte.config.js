@@ -9,10 +9,12 @@ const config = {
  
     kit: {
         adapter: adapter({
-			fallback: index.html,
+			fallback: 'index.html'
 		}),
         paths: {
             base: process.env.NODE_ENV === 'production' ? '/teenfoil.github.io' : '',
         }
     }
 };
+
+export default config
