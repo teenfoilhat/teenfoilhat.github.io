@@ -7,9 +7,9 @@
 </head>
 
 <main>
-    <title>
+    <header>
         TEENFOILHAT FORUM
-    </title>
+    </header>
 
     <nav>
         <a href='#'>configure</a>
