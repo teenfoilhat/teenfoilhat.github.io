@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+
+</script>
+
+<head>
+    <title>TeenFoilHat Forum</title>
+</head>
+
+<main>
+    <title>
+        TEENFOILHAT FORUM
+    </title>
+
+    <nav>
+        <a href='#'>configure</a>
+    </nav>
+</main>
+
+<style>
+    main{
+        display:grid;
+    }
+</style>
