@@ -26,6 +26,7 @@
     }
 
     .item{
-        width:fit-content;
+        width: fit-content;
+        height: fit-content;
     }
 </style>
