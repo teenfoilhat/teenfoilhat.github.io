@@ -22,7 +22,7 @@
         height: 100vh;
 
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 50vh 50vh;
         grid-template-columns: 1fr;
         grid-column-gap: 0;
         grid-row-gap: 0;
