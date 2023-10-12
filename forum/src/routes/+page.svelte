@@ -18,7 +18,7 @@
 
 <style>
     title{
-        font: monospace;
+        font-family: monospace;
     }
 
     main{
