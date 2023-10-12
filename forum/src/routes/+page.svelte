@@ -17,6 +17,10 @@
 </main>
 
 <style>
+    title{
+        font: monospace;
+    }
+
     main{
         width: 100vh;
         height: 100vh;
