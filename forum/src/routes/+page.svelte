@@ -12,7 +12,7 @@
     </header>
 
     <nav class = "item">
-        <a href='#'>configure</a>
+        <a href='f'>configure</a>
     </nav>
 </main>
 
