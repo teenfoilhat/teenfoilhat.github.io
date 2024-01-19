@@ -8,7 +8,28 @@
 
 <main>
     <aside>
+        <pre>
+            
+             //
+            //
+           /  \
+          /    \ 
+         /      \ 
+        /        \ 
+       —-----------
+      |           |
+      |          /|
+      ( *   *   | /
+      |  L      /
+      \  ^~^   /\
+    (   -          )
+  /  |    p          \
+ /__ /   p         /  \
+  / /    p        /___|
 
+  TEENFOILHAT FORUM
+
+        </pre>
     </aside>
 
     <section>
@@ -21,10 +42,6 @@
 
 
 <style>
-    title{
-        font-family: monospace;
-    }
-
     main{
         width: 100vh;
         height: 100vh;
@@ -35,12 +52,6 @@
         grid-column-gap: 0;
         grid-row-gap: 0;
 
-    }
-
-    .item{
-        width: 100%;
-        height: 100%;
-
-        display:flex;
+        font-family: monospace;
     }
 </style>
