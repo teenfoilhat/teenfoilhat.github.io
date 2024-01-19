@@ -36,7 +36,7 @@ export const POST: RequestHandler = async ({ request }) => {
     if (post.length > 140) {
         return {
             status: 400,
-            body: 'Maximum Tweet length exceeded.',
+            body: 'Maximum Post length exceeded.',
             headers: { location: '/routes' }
         }
     }
