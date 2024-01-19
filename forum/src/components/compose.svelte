@@ -47,7 +47,7 @@
 
     button {
         min-width: 80px;
-        padding: 16px;
+        padding: 0 16px;
     }
 
     .error {

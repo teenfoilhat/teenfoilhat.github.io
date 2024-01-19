@@ -27,3 +27,27 @@ export const GET: RequestHandler = async () => {
         body: { posts }
     }
 }
+
+export const POST: RequestHandler = async ({ request }) => {
+    const form = await request.formData()
+    const post = String(form.get('post'))
+
+    // you should probably use a validation library
+    if (post.length > 140) {
+        return {
+            status: 400,
+            body: 'Maximum Tweet length exceeded.',
+            headers: { location: '/routes' }
+        }
+    }
+
+    // the user id is hardcoded but you can get it from a session
+    await prisma.post.create({
+        data: {
+            url: Math.random().toString(16).slice(2),
+            content: post,
+        }
+    })
+
+    return {}
+}
