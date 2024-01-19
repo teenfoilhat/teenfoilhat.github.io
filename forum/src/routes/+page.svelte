@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Compose from "../components/compose.svelte";
     import Post from "../components/post.svelte";
     import type { PostType } from "../types";
 
@@ -36,7 +37,11 @@
     </aside>
 
     <section>
-        <article>Insert Posts Here</article>
+        <Compose />
+
+        {#each posts as post (post.id)}
+            <Post {post} />
+        {/each}
     </section>
 </main>
 
