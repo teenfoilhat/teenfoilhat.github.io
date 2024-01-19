@@ -6,7 +6,7 @@
 </script>
 
 <div class="compose">
-    <form action="/home" method="post" autocomplete="off">
+    <form action="/routes" method="post" autocomplete="off">
         <input
             aria-label="Enter your Tweet"
             bind:value={tweet}
