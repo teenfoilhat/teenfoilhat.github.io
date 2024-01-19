@@ -7,14 +7,18 @@
 </head>
 
 <main>
-    <header class = "item">
-        TEENFOILHAT FORUM
-    </header>
+    <aside>
 
-    <nav class = "item">
-        <a href='f'>configure</a>
-    </nav>
+    </aside>
+
+    <section>
+        <article>
+            Insert Posts Here
+        </article>
+    </section>
 </main>
+
+
 
 <style>
     title{
