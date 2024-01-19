@@ -1,5 +1,8 @@
-<script>
+<script lang="ts">
+    import Post from "../components/post.svelte";
+    import type { PostType } from "../types";
 
+    export let posts: PostType[] = [];
 </script>
 
 <head>
@@ -33,30 +36,28 @@
     </aside>
 
     <section>
-        <article>
-            Insert Posts Here
-        </article>
+        <article>Insert Posts Here</article>
     </section>
 </main>
 
-
-
 <style>
-    main{
+    main {
         width: 100%;
-        height: 100%;
+        height: 98vh;
 
-        display:grid;
+        display: grid;
         grid-template-columns: 50% 50%;
-        
+
         grid-column-gap: 0;
         grid-row-gap: 0;
 
         font-family: monospace;
     }
 
-    pre{width:fit-content}
-    aside{
+    pre {
+        width: fit-content;
+    }
+    aside {
         display: flex;
         flex-wrap: wrap;
 
